@@ -2,23 +2,23 @@
 
 namespace Calculation.Lib
 {
-    public class CalcLib
+    public static  class CalcLib
     {
-        public int Sum(int x, int y)
+        public static int  Addition(int x, int y)
         {
             return x + y;
         }
-        public int Dif(int x, int y)
+        public static int Substraction(int x, int y)
         {
             return x - y;
         }
-        public int Div(int x, int y)
+        public static double Division(double x, double y )
         {
             if (y == 0)
                 throw new ArgumentException("y can not be null");
             return x / y;
         }
-        public int Mult(int x, int y)
+        public static int Multiplication(int x, int y)
         {
             return x * y;
         }
