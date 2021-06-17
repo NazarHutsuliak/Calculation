@@ -59,7 +59,7 @@ namespace Calculation.Lib.Tests
             //Arrange
             const int expected = 40;
             //Act
-            int actual = CalcLib.Multiplication(2, 20);
+            var actual = CalcLib.Multiplication(2, 20);
             //Assert
             Assert.AreEqual(expected, actual);
 
